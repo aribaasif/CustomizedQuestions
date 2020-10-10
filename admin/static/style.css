@@ -1,0 +1,16 @@
+.bg{
+    background-color: #77ADBC;
+}
+.font{
+    color: #77ADBC;
+}
+.ques{
+    border-width: 3px;
+    width:1000px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
