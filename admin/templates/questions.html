@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none; width: 300px;" id="leftMenu">
+  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <br><br>
+  <h3 style="width: 270px; margin:auto">Questions Templates</h3>
+  <br><br>
+  <a href="question1.html" class="w3-bar-item w3-button">Question 1</a>
+  <a href="#" class="w3-bar-item w3-button">Question 2</a>
+  <a href="#" class="w3-bar-item w3-button">Question 3</a>
+  <a href="#" class="w3-bar-item w3-button">Question 4</a>
+  <a href="#" class="w3-bar-item w3-button">Question 5</a>
+  <a href="#" class="w3-bar-item w3-button">Question 6</a>
+  <a href="#" class="w3-bar-item w3-button">Question 7</a>
+  <a href="#" class="w3-bar-item w3-button">Question 8</a>
+  <a href="#" class="w3-bar-item w3-button">Question 9</a>
+  <a href="#" class="w3-bar-item w3-button">Question 10</a>
+</div>
+
+<div class="bg">
+  <button class="w3-button w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+  <div class="w3-container">
+    <h1 style="width: 400px; margin:auto; padding-bottom: 50px;">Customize Questions</h1>
+  </div>
+</div>
+
+<div class="w3-container">
+    <h3 style="width: 900px; margin: auto; padding-top: 150px;"> Select any question template from sidebar to customize it in your way.</h3>
+</div> 
+<script>
+function openLeftMenu() {
+  document.getElementById("leftMenu").style.display = "block";
+}
+
+function closeLeftMenu() {
+  document.getElementById("leftMenu").style.display = "none";
+}
+</script>
+     
+</body>
+</html>

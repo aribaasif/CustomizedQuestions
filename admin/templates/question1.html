@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Question 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body >
+    <div>
+        <h3 style="padding-top: 50px; width:400px; margin: auto;">Template For Question 1</h3>
+        <p class="ques w3-light-grey " >
+            Executives of Studio Recordings, Inc., produced the latest compact disc by the Starshine Sisters Band titled Sunshine/Moonshine. 
+            <br>
+            The following cost information pertains to the new CD:
+            <br> <br>
+CD package and disc (direct material and labor) = 	$1.25	per CD <br>
+Songwriters royalties =	$0.35	per CD <br>
+Recording artists royalties	= $1.00	per CD <br>
+Advertising and promotion =	$275000	<br>
+Studio Recordings, Inc., overhead =	$250000 <br>	
+Selling price to CD distributor =	$9.00	per CD <br><br>
+Calculate the following <br>
+A. Contribution per CD unit <br>
+B. Break-even volume in CD units and dollars <br>
+C. Net profit if 1 million CDs are sold <br>
+D. Necessary CD unit volume to achieve 200000 profit <br>
+        </p>
+    </div>
+    <br><br>
+    <div class="w3-center">
+        <button onclick= "show()" class="w3-button w3-round " style="background-color: #77ADBC;"><h5 style="color: white;">Customize this question.</h5></button>
+          </div>
+    <div id="fields">
+        <h3 style="width: 960px; padding-top: 50px; margin:auto">Customize the above template by entering new values in the following fields:</h3>
+    <br><br>
+            <form action="/action_page.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+             
+            <div class="w3-row w3-section">
+              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                <div class="w3-rest">
+                    <h6 style="color: black;">Enter Question:</h6>
+                  <input id="question" class="w3-input w3-border" name="first" type="text" placeholder="e.g.Executives of Studio Recordings, Inc., produced the latest compact disc by the Starshine Sisters Band titled Sunshine/Moonshine. The following cost information pertains to the new CD:">
+                </div>
+            </div>
+            <br><br>
+
+            <div class="w3-row-padding w3-section">
+                <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation information:</h6>
+                    <input id="D1" class="w3-input w3-border" name="last" type="text" placeholder="e.g. CD package and disc (direct material and labor)">
+                  </div>
+                  <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation Values</h6>
+                    <input id="V1" class="w3-input w3-border" name="last" type="text" placeholder="e.g. 1.25 per CD">
+                  </div>
+              </div>
+
+              <div class="w3-row-padding w3-section">
+                <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation information:</h6>
+                    <input id="D2" class="w3-input w3-border" name="last" type="text" placeholder="e.g. Songwriters royalties">
+                  </div>
+                  <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation Values</h6>
+                    <input id="V2" class="w3-input w3-border" name="last" type="text" placeholder="e.g. 0.35 per CD">
+                  </div>
+              </div>
+
+              <div class="w3-row-padding w3-section">
+                <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation information:</h6>
+                    <input id="D3" class="w3-input w3-border" name="last" type="text" placeholder="e.g. Recording artists royalties">
+                  </div>
+                  <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation Values</h6>
+                    <input id="V3" class="w3-input w3-border" name="last" type="text" placeholder="e.g. 1.00 per CD">
+                  </div>
+              </div>
+
+              <div class="w3-row-padding w3-section">
+                <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation information:</h6>
+                    <input id="D4" class="w3-input w3-border" name="last" type="text" placeholder="e.g. Advertising and promotion)">
+                  </div>
+                  <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation Values</h6>
+                    <input id="V4" class="w3-input w3-border" name="last" type="text" placeholder="e.g. 275000">
+                  </div>
+              </div>
+
+              <div class="w3-row-padding w3-section">
+                <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation information:</h6>
+                    <input id="D5" class="w3-input w3-border" name="last" type="text" placeholder="e.g. Studio Recordings, Inc., overhead">
+                  </div>
+                  <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation Values</h6>
+                    <input id="V5" class="w3-input w3-border" name="last" type="text" placeholder="e.g. 250000">
+                  </div>
+              </div>
+
+              <div class="w3-row-padding w3-section">
+                <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation information:</h6>
+                    <input id="D6" class="w3-input w3-border" name="last" type="text" placeholder="e.g. Selling price to CD distributor">
+                  </div>
+                  <div class="w3-half" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-half">
+                      <h6 style="color: black;">Enter Calculation Values</h6>
+                    <input id="V6" class="w3-input w3-border" name="last" type="text" placeholder="e.g. 9.00 per CD">
+                  </div>
+              </div>
+            
+            <br><br>
+            
+            <div class="w3-row w3-section">
+              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+                <div class="w3-rest">
+                    <h6 style="color: black;">Enter the fields to be calculated:</h6>
+                  <input class="w3-input w3-border" name="message" type="text" placeholder="e.g. Part A: Contribution per CD unit.">
+                </div>
+                <br>
+                <input class="w3-input w3-border" name="message" type="text" placeholder="e.g. Part B:  Break-even volume in CD units and dollars.">
+               <br> <input class="w3-input w3-border" name="message" type="text" placeholder="e.g. Part C: Net profit if 1 million CDs are sold.">
+                <br> <input class="w3-input w3-border" name="message" type="text" placeholder="e.g. Part D: Necessary CD unit volume to achieve 200000 profit.">
+            </div>
+            <button class="w3-button w3-block w3-section w3-ripple w3-padding" style="background-color: #77ACBD; color: white;"><h5>Customize</h5></button>
+            
+            </form>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
